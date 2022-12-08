@@ -1,0 +1,431 @@
+
+    body {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Kanit', sans-serif; 
+    }
+
+    
+    img{
+      border-radius: 1em;
+    }
+   
+    a {
+        text-decoration: none;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    body{
+      margin: 0px;
+      padding: 0px;
+      
+      background-color: #adb5bd;
+    ;
+      
+    }
+    
+    /* menu de navegacion */
+    .encabezado {
+      
+      background-color:#212529;
+
+      
+      
+    }
+      
+      /* background-image:  url(../imagen/56.jpg);
+      background-size: cover;
+      height: 100vh;
+  */
+  
+   
+ 
+      
+      /* padding: 10px 40px; */
+ 
+
+    /* .guitar{
+      background-image: url(../imagen/58.jpg);
+      background-size: cover;
+      height: 100vh;
+    } */
+
+  
+  
+    .encabezado__contenido-logo a{
+      display: grid;
+      padding-left: 30px;
+      color: blanchedalmond;
+      align-content:center; 
+      
+
+    }
+    
+    .encabezado__contenido-menu a{
+      color: white;
+      font-weight: bold;
+    }
+    
+    .encabezado__contenido {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    
+      
+     
+    }
+    
+    .encabezado__contenido-menu {
+      display: flex;
+    
+      
+      
+      
+    }
+    
+    
+    .encabezado__contenido-menu li{ 
+      margin: 20px 10px ;
+      padding: 5px;
+      width: 100%;
+    }
+    
+   /* efectos */
+   
+   .encabezado__contenido-menu a:hover {
+  
+    padding: 15px;
+    border: solid 1px white; 
+    border-radius: 10px;
+   }
+    
+  
+ .lorem::selection {
+  background-color:brown;
+ }
+
+
+
+    /* grid iconos musicales */
+    .musica{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      
+      margin-top: 100px;
+      justify-items:center;
+    }
+
+    /* index apertura */
+
+    .flexx {
+        display: flex;
+        
+        
+        /* margin-top: 100px;    */
+    }
+    
+     .caja {
+        display: flex;
+        align-items: center;
+        padding: 50px;
+    }
+
+    .bg-footer {
+        background-color: #302c2d;
+        color: white;
+        margin-top: 50px;
+      }
+      
+      .bg-footer p {
+        margin: 0;
+        /* padding: 1em 0; */
+        text-align: center;
+      }
+
+     /* index cierre */
+
+
+     /* nosotros apertura*/
+
+      .flexxx {
+          display: flex;
+          margin-top: 100px;  
+          align-items: center;      
+        }
+                
+      .caja {
+            display: flex;
+            align-items: center;
+            padding: 50px;
+        }
+
+        .video{
+          border-radius: 20px;
+          margin-left: 20px;
+        }
+        
+     .bg-footer {
+            background-color: #302c2d;
+            color: white;
+            margin-top: 110px;
+        }
+        
+       .bg-footer p {
+            margin: 0;
+            padding: 1em 0;
+            text-align: center;
+        }
+      
+        /* nosotros cierre */
+    
+
+        /* cursos apertura */
+
+      
+      .main-title {
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+      }
+        
+      .tienda {
+          display: flex;
+          gap: 1em;
+      }
+        
+      .card {
+        background-color: #A6444C;
+        color: white;
+        overflow: hidden;
+        border-radius: 0.5em;
+        margin-bottom: 1em;
+      }
+
+      /* pruebas */
+
+
+      .video{
+          width: 70%;
+      }
+
+      .lorem{
+        width: 100%;
+      }
+
+      .tamaño-img{
+        width: 55%;
+        margin-left: 20px;
+        margin-top: 100px;
+        /* border-radius: 5px; */
+        /* background-size: cover; */
+        /* height: 100vh; */
+      }
+      
+      .card-img {
+        width: 100%;
+      }
+      
+      .card-body {
+        padding: 1em;
+      }
+      
+      .card-body h5 {
+        font-size: 1.5rem;
+        margin: 1em 0;
+        font-weight: 500;
+      }
+      
+      .card-body p {
+        font-weight: 300;
+      }
+    
+      .bg-footer {
+        background-color: #302c2d;
+        color: white;
+        margin-top: 110px;
+      }
+      
+      .bg-footer p {
+        margin: 0;
+        padding: 1em 0;
+        text-align: center;
+      }
+
+      /* cursos cierre */
+
+
+      /* contactanos apertura*/
+      
+      .flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 100px;
+        border: 10px solid black;
+      }
+
+     .bg-footer {
+        background-color: #302c2d;
+        color: white;
+        margin-top: 110px;
+      }
+      
+      .bg-footer p {
+        margin: 0;
+        padding: 1em 0;
+        text-align: center;
+      }
+    
+     /* contactanos cierre */
+
+
+      /* formulario apertura*/
+
+      .formulario{
+        background-image:url(../imagen/fondo.jpg);
+        background-size: 100%;
+        margin:0 ;
+        
+      }
+      form{
+        width: 450px;
+        margin: auto;
+        background: rgba(0,0,0,0.4);
+        padding: 10px 20px;
+        box-sizing: border-box;
+        margin-top: 20px;
+        border-radius: 7px;
+      }
+      h2{
+        color: #fff;
+        text-align: center;
+        margin: 0;
+        font-size: 30px;
+        margin-bottom: 20px;
+      }
+
+      input,textarea{
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 7px;
+        box-sizing: border-box;
+        font-size: 20px;
+      }
+
+      textarea{
+        min-height: 100px;
+        max-height: 200px;
+        max-width: 100%;
+      }
+      #boton{
+        background: #31384a;
+        color: #fff;
+        padding: 20px;
+      }
+      #boton:hover{
+        cursor:pointer;
+      }
+
+
+      /* responsive */
+      
+      @media (min-width:576px) and (max-width:768px) {
+        
+        .tienda{
+          display: grid;
+          grid-template-columns: repeat(4 ,1fr);
+        }
+        
+        .card{
+          grid-column-start: 1;
+          grid-column-end: 5;
+          grid-row-start: 1;
+        }
+        
+        .card-2{
+          grid-column-start:1;
+          grid-column-end:3;
+          grid-row-start: 3;
+          grid-row-end: ;
+        }
+      }
+      
+      .card-3 {
+        grid-column-start:3;
+        grid-column-end:5;
+        grid-row-start: 3;
+        
+      }
+
+
+
+
+      @media (min-width:576px) and (max-width:768px){
+        .flexx{
+          flex-direction: column;
+          align-items: center;
+        
+
+        }
+
+        .flexxx{
+          
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .tamaño-img{
+          width: 80%;
+        }
+        
+
+        .lorem2 {
+          justify-content: center;
+          margin: 0 4em;
+          align-items: center;
+
+      }
+       }
+
+        @media (max-width: 576px) {
+        .tienda{ 
+          
+          flex-direction: column;
+  
+        }
+        .encabezado{
+          background-position: right;
+        }
+  
+        .encabezado__contenido-menu{
+          flex-direction: column;
+        }
+
+        .flexx{
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+      
+        }
+
+        .tamaño-img{
+          width: 70%;
+        }
+
+        
+
+        .lorem2 {
+         justify-content: center;
+         margin: 0 4em;
+        
+        }
+
+        .flexxx{
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+        }
+  
+        }
