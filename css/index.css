@@ -197,7 +197,7 @@
         
       .card {
         background-color: #A6444C;
-        color: white;
+       color: #fff;
         overflow: hidden;
         border-radius: 0.5em;
         margin-bottom: 1em;
@@ -212,6 +212,8 @@
 
       .lorem{
         width: 100%;
+        
+        
       }
 
       .tamaño-img{
@@ -229,6 +231,7 @@
       
       .card-body {
         padding: 1em;
+        background-color: #31384a;
       }
       
       .card-body h5 {

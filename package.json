@@ -1,0 +1,22 @@
+{
+  "name": "proyecto1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+   "build-sass": "node-sass --include-path scss scss/main.scss scss/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Apuyoiyi/Proyecto-2-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Apuyoiyi/Proyecto-2-/issues"
+  },
+  "homepage": "https://github.com/Apuyoiyi/Proyecto-2-#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
